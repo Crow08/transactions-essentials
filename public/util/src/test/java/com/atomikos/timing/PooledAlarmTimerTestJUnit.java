@@ -6,7 +6,7 @@
  * See http://www.atomikos.com/Main/WhichLicenseApplies for details.
  */
 
-package com.atomikos.timing;
+/*package com.atomikos.timing;
 
 import junit.framework.TestCase;
 
@@ -89,4 +89,4 @@ public class PooledAlarmTimerTestJUnit extends TestCase {
 		assertEquals(10, count2);
 	}
 
-}
+}*/

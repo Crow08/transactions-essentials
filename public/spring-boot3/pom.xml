@@ -11,35 +11,35 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<spring.version>6.0.3</spring.version>
-		<boot.version>3.0.1</boot.version>
+		<boot.version>3.4.1</boot.version>
 	</properties>
 	<modules>
 		<module>transactions-spring-boot3</module>
 		<module>transactions-spring-boot3-starter</module>
 		<module>transactions-spring-boot3-integration-tests</module>
 	</modules>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-toolchains-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>toolchain</goal>
-						</goals>
-						<configuration>
-							<toolchains>
-								<jdk>
-									<version>17</version>
-								</jdk>
-							</toolchains>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
+<!--	<build>-->
+<!--		<plugins>-->
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-toolchains-plugin</artifactId>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<goals>-->
+<!--							<goal>toolchain</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<toolchains>-->
+<!--								<jdk>-->
+<!--									<version>17</version>-->
+<!--								</jdk>-->
+<!--							</toolchains>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
+<!--		</plugins>-->
+<!--	</build>-->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

@@ -7,3 +7,4 @@ target/
 .hgignore
 .hgtags
 .project
+.idea/
